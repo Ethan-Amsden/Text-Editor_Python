@@ -75,7 +75,7 @@ def saveFile(e):
 
         statusBar.config(text=f'Saved: {name}        ')
     else:
-        saveAsFile()
+        saveAsFile(e)
 
 #---------------------
 def saveAsFile(e):
@@ -212,7 +212,7 @@ def night_1():
 
 def night_2():
     BG = 'black'
-    FG = 'green'
+    FG = '#00FF00'
 
     textBox.config(bg=BG,fg=FG,insertbackground=FG)
 
